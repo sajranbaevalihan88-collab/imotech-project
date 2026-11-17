@@ -1,0 +1,15 @@
+{
+  "name": "imotech-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node build.js && node preview.js",
+    "build": "node build.js",
+    "preview": "node preview.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

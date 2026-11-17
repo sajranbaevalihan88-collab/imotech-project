@@ -1,0 +1,26 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 🤟
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - heading "ImoTech • ЫмТили" [level=1] [ref=e9]
+          - generic [ref=e10]: MediaPipe Hands 21-Point Live AI
+          - generic [ref=e12]: Буквы (А–Я, Ө, Ү, Ң) + Цифры (0–9)
+        - paragraph [ref=e13]: Живой нейросетевой сурдопереводчик жестов через веб-камеру в реальном времени, покадровый разбор видео (.MP4) и перевод из YouTube
+    - button "🎥 Включить веб-камеру (Живое распознавание руки)" [ref=e15] [cursor=pointer]
+  - navigation [ref=e16]:
+    - button "📷 Живая Веб-Камера ➔ Буквы (А–Я) и Цифры (0–9)" [ref=e17] [cursor=pointer]
+    - button "🎬 Обработка видеофайла (.MP4 / Кадры)" [ref=e18] [cursor=pointer]
+    - button "🖼️ Обработка фото (JPG / PNG)" [ref=e19] [cursor=pointer]
+    - button "▶️ Перевод из YouTube по ссылке" [ref=e20] [cursor=pointer]
+  - generic [ref=e411]:
+    - generic [ref=e412]:
+      - heading "▶️ Перевод и распознавание жестов по ссылке из YouTube" [level=2] [ref=e413]
+      - generic [ref=e414]: YouTube Stream + 21-Point Таймлайн
+    - generic [ref=e415]:
+      - 'textbox "Вставьте любую ссылку YouTube (например: https://www.youtube.com/watch?v=... или https://youtu.be/...)" [ref=e416]': https://www.youtube.com/watch?v=feA64wXhbjo
+      - button "🔍 Перевести видео с YouTube" [disabled] [ref=e417]
+      - button "⏳ Реальная обработка..." [disabled] [ref=e420]
+    - generic [ref=e424]: "⏳ Реальная обработка на сервере: скачивание видео (yt-dlp), выборка кадров (OpenCV), MediaPipe Hands..."
+    - generic [ref=e419]: 🤖 Сервер скачивает видео по ссылке (yt-dlp ≤480p), OpenCV выбирает кадры, MediaPipe Hands распознаёт жесты по реальным пикселям. Если YouTube блокирует доступ — используйте «🎥 Живой захват экрана» в плеере ниже.

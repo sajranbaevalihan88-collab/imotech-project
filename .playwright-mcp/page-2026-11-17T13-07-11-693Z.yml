@@ -1,0 +1,291 @@
+- generic [ref=f4e3]:
+  - banner [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - generic [ref=f4e6]: 🤟
+      - generic [ref=f4e7]:
+        - generic [ref=f4e8]:
+          - heading "ImoTech • ЫмТили" [level=1] [ref=f4e9]
+          - generic [ref=f4e10]: MediaPipe Hands 21-Point Live AI
+          - generic [ref=f4e12]: Буквы (А–Я, Ө, Ү, Ң) + Цифры (0–9)
+        - paragraph [ref=f4e13]: Живой нейросетевой сурдопереводчик жестов через веб-камеру в реальном времени, покадровый разбор видео (.MP4) и перевод из YouTube
+    - button "🎥 Включить веб-камеру (Живое распознавание руки)" [ref=f4e15] [cursor=pointer]
+  - navigation [ref=f4e16]:
+    - button "📷 Живая Веб-Камера ➔ Буквы (А–Я) и Цифры (0–9)" [ref=f4e17] [cursor=pointer]
+    - button "🎬 Обработка видеофайла (.MP4 / Кадры)" [ref=f4e18] [cursor=pointer]
+    - button "🖼️ Обработка фото (JPG / PNG)" [ref=f4e19] [cursor=pointer]
+    - button "▶️ Перевод из YouTube по ссылке" [ref=f4e20] [cursor=pointer]
+  - generic [ref=f4e21]:
+    - generic [ref=f4e22]:
+      - generic [ref=f4e23]:
+        - generic [ref=f4e24]:
+          - generic [ref=f4e25]:
+            - heading "📹 Веб-камера & 21-точечный скелет руки" [level=2] [ref=f4e26]
+            - generic [ref=f4e27]: Нажмите зелёную кнопку «Включить веб-камеру», чтобы нейросеть MediaPipe Hands считывала вашу руку вживую
+          - button "✨ Авто-демо «ОШ2027»" [ref=f4e29] [cursor=pointer]
+        - generic [ref=f4e30]:
+          - button "⚡ Авто (Буквы + Цифры)" [ref=f4e31] [cursor=pointer]
+          - button "🔢 Только Цифры (0–9)" [ref=f4e32] [cursor=pointer]
+          - button "🔤 Только Буквы (А–Я, Ө, Ү, Ң)" [ref=f4e33] [cursor=pointer]
+          - button "💬 Фразы (САЛАМ, ПАСПОРТ)" [ref=f4e34] [cursor=pointer]
+        - generic [ref=f4e35]:
+          - generic [ref=f4e36]: "📷 Камера:"
+          - combobox [ref=f4e37] [cursor=pointer]:
+            - option "⚡ Авто — встроенная камера ноутбука (телефон/виртуальные пропускаются)" [selected]
+        - generic [ref=f4e38]:
+          - generic:
+            - generic: 🖐️ Интерактивный 21-Point скелет
+            - generic: "Пальцы: [0, 1, 1, 0, 0]"
+            - generic: "Режим: АВТО (БУКВЫ+ЦИФРЫ)"
+          - button "📷 ВКЛЮЧИТЬ ВЕБ-КАМЕРУ (РАСПОЗНАВАНИЕ ЖЕСТОВ В РЕАЛЬНОМ ВРЕМЕНИ)" [ref=f4e41] [cursor=pointer]
+        - generic [ref=f4e42]:
+          - generic [ref=f4e43]:
+            - generic [ref=f4e44]: "🖐️ Индикаторы и ручной тест 5 пальцев (кликните на палец или включите камеру):"
+            - generic [ref=f4e45]:
+              - generic [ref=f4e46]:
+                - text: "Наклон кисти:"
+                - generic [ref=f4e47]: 0°
+              - slider [ref=f4e48]: "0"
+          - generic [ref=f4e49]:
+            - button "0 • Согнут Большой Баш бармак" [ref=f4e50] [cursor=pointer]:
+              - generic [ref=f4e51]: 0 • Согнут
+              - generic [ref=f4e52]: Большой
+              - generic [ref=f4e53]: Баш бармак
+            - button "1 • Прямой Указательный Сөөмөй" [ref=f4e54] [cursor=pointer]:
+              - generic [ref=f4e55]: 1 • Прямой
+              - generic [ref=f4e56]: Указательный
+              - generic [ref=f4e57]: Сөөмөй
+            - button "1 • Прямой Средний Ортон" [ref=f4e58] [cursor=pointer]:
+              - generic [ref=f4e59]: 1 • Прямой
+              - generic [ref=f4e60]: Средний
+              - generic [ref=f4e61]: Ортон
+            - button "0 • Согнут Безымянный Аты жок" [ref=f4e62] [cursor=pointer]:
+              - generic [ref=f4e63]: 0 • Согнут
+              - generic [ref=f4e64]: Безымянный
+              - generic [ref=f4e65]: Аты жок
+            - button "0 • Согнут Мизинец Чыпалак" [ref=f4e66] [cursor=pointer]:
+              - generic [ref=f4e67]: 0 • Согнут
+              - generic [ref=f4e68]: Мизинец
+              - generic [ref=f4e69]: Чыпалак
+      - generic [ref=f4e71]:
+        - generic [ref=f4e72]:
+          - heading "🎯 Распознанный символ (Буква / Цифра)" [level=2] [ref=f4e73]
+          - generic [ref=f4e74]: "Точность: 98%"
+        - generic [ref=f4e75]:
+          - generic [ref=f4e76]:
+            - generic [ref=f4e77]: 🔢 ЦИФРА
+            - generic [ref=f4e78]: "2"
+          - generic [ref=f4e79]:
+            - generic [ref=f4e80]: Цифра 2 (Два)
+            - generic [ref=f4e81]: 🇰🇬 Сан 2 (Эки) • 🌐 Digit 2 (Two)
+            - generic [ref=f4e82]: "Геометрия 21 точки: Подняты указательный и средний пальцы (V-жест) [0, 1, 1, 0, 0]"
+        - generic [ref=f4e84]:
+          - generic [ref=f4e85]: "⏱️ Удержание жеста перед камерой (1.2 сек) ➔ Авто-ввод в строку:"
+          - generic [ref=f4e86]: 0%
+        - generic [ref=f4e88]:
+          - generic [ref=f4e89]:
+            - generic [ref=f4e90]: "✍️ Собранный текст и числа:"
+            - generic [ref=f4e91] [cursor=pointer]:
+              - checkbox "Авто-ввод при удержании жеста (1.2 сек) / клике" [checked] [ref=f4e92]
+              - text: Авто-ввод при удержании жеста (1.2 сек) / клике
+          - generic [ref=f4e93]: ОШ-2027
+          - generic [ref=f4e94]:
+            - button "➕ Добавить «2»" [ref=f4e95] [cursor=pointer]
+            - button "␣ Пробел" [ref=f4e96] [cursor=pointer]
+            - button "⌫ Стереть" [ref=f4e97] [cursor=pointer]
+            - button "🗑️ Очистить" [ref=f4e98] [cursor=pointer]
+            - button "📋 Копировать" [ref=f4e99] [cursor=pointer]
+        - generic [ref=f4e100]:
+          - generic [ref=f4e101]:
+            - generic [ref=f4e102]: "📚 Каталог жестов (кликните для проверки или покажите жест в камеру):"
+            - generic [ref=f4e103]:
+              - button "🔢 Цифры 0–9 (10)" [ref=f4e104] [cursor=pointer]
+              - button "🔤 Буквы А–Я, Ө, Ү, Ң (29)" [ref=f4e105] [cursor=pointer]
+              - button "💬 Фразы (12)" [ref=f4e106] [cursor=pointer]
+          - generic [ref=f4e107]:
+            - button "0 [00000] 0 (Нөл)" [ref=f4e108] [cursor=pointer]:
+              - generic [ref=f4e109]: "0"
+              - generic [ref=f4e110]: "[00000]"
+              - generic [ref=f4e111]: 0 (Нөл)
+            - button "1 [01000] 1 (Бир)" [ref=f4e112] [cursor=pointer]:
+              - generic [ref=f4e113]: "1"
+              - generic [ref=f4e114]: "[01000]"
+              - generic [ref=f4e115]: 1 (Бир)
+            - button "2 [01100] 2 (Эки)" [ref=f4e116] [cursor=pointer]:
+              - generic [ref=f4e117]: "2"
+              - generic [ref=f4e118]: "[01100]"
+              - generic [ref=f4e119]: 2 (Эки)
+            - button "3 [11100] 3 (Үч)" [ref=f4e120] [cursor=pointer]:
+              - generic [ref=f4e121]: "3"
+              - generic [ref=f4e122]: "[11100]"
+              - generic [ref=f4e123]: 3 (Үч)
+            - button "4 [01111] 4 (Төрт)" [ref=f4e124] [cursor=pointer]:
+              - generic [ref=f4e125]: "4"
+              - generic [ref=f4e126]: "[01111]"
+              - generic [ref=f4e127]: 4 (Төрт)
+            - button "5 [11111] 5 (Беш)" [ref=f4e128] [cursor=pointer]:
+              - generic [ref=f4e129]: "5"
+              - generic [ref=f4e130]: "[11111]"
+              - generic [ref=f4e131]: 5 (Беш)
+            - button "6 [10001] 6 (Алты)" [ref=f4e132] [cursor=pointer]:
+              - generic [ref=f4e133]: "6"
+              - generic [ref=f4e134]: "[10001]"
+              - generic [ref=f4e135]: 6 (Алты)
+            - button "7 [11001] 7 (Жети)" [ref=f4e136] [cursor=pointer]:
+              - generic [ref=f4e137]: "7"
+              - generic [ref=f4e138]: "[11001]"
+              - generic [ref=f4e139]: 7 (Жети)
+            - button "8 [11101] 8 (Сегиз)" [ref=f4e140] [cursor=pointer]:
+              - generic [ref=f4e141]: "8"
+              - generic [ref=f4e142]: "[11101]"
+              - generic [ref=f4e143]: 8 (Сегиз)
+            - button "9 [00111] 9 (Тогуз)" [ref=f4e144] [cursor=pointer]:
+              - generic [ref=f4e145]: "9"
+              - generic [ref=f4e146]: "[00111]"
+              - generic [ref=f4e147]: 9 (Тогуз)
+    - generic [ref=f4e148]:
+      - generic [ref=f4e149]:
+        - generic [ref=f4e150]:
+          - heading "🖐️ Памятка жестов для живой веб-камеры (что показать перед камерой)" [level=3] [ref=f4e151]
+          - generic [ref=f4e152]: "Покажите любой из этих жестов перед включённой камерой — MediaPipe Hands мгновенно распознает цифру или букву:"
+        - generic [ref=f4e153]:
+          - button "🔢 Режим Цифр (0–9)" [ref=f4e154] [cursor=pointer]
+          - button "🔤 Режим Букв (А–Я)" [ref=f4e155] [cursor=pointer]
+      - generic [ref=f4e156]: "🔢 Жестовый счёт цифр (0–9):"
+      - generic [ref=f4e157]:
+        - generic [ref=f4e158]:
+          - generic [ref=f4e159]: "0"
+          - generic [ref=f4e160]:
+            - generic [ref=f4e161]: ✊ Кулак [0,0,0,0,0]
+            - generic [ref=f4e162]: Сожмите все пальцы в кулак
+        - generic [ref=f4e163]:
+          - generic [ref=f4e164]: "1"
+          - generic [ref=f4e165]:
+            - generic [ref=f4e166]: ☝️ Указательный [0,1,0,0,0]
+            - generic [ref=f4e167]: Поднимите указательный палец
+        - generic [ref=f4e168]:
+          - generic [ref=f4e169]: "2"
+          - generic [ref=f4e170]:
+            - generic [ref=f4e171]: ✌️ Два пальца V [0,1,1,0,0]
+            - generic [ref=f4e172]: Указательный + средний разведены
+        - generic [ref=f4e173]:
+          - generic [ref=f4e174]: "3"
+          - generic [ref=f4e175]:
+            - generic [ref=f4e176]: 🤟 Три пальца [1,1,1,0,0]
+            - generic [ref=f4e177]: Большой + указательный + средний
+        - generic [ref=f4e178]:
+          - generic [ref=f4e179]: "4"
+          - generic [ref=f4e180]:
+            - generic [ref=f4e181]: 🖖 Четыре пальца [0,1,1,1,1]
+            - generic [ref=f4e182]: 4 пальца вверх, большой прижат
+        - generic [ref=f4e183]:
+          - generic [ref=f4e184]: "5"
+          - generic [ref=f4e185]:
+            - generic [ref=f4e186]: 🖐️ Открытая ладонь [1,1,1,1,1]
+            - generic [ref=f4e187]: Раскройте все 5 пальцев
+        - generic [ref=f4e188]:
+          - generic [ref=f4e189]: "6"
+          - generic [ref=f4e190]:
+            - generic [ref=f4e191]: 🤙 Шака [1,0,0,0,1]
+            - generic [ref=f4e192]: Большой палец + мизинец
+        - generic [ref=f4e193]:
+          - generic [ref=f4e194]: "7"
+          - generic [ref=f4e195]:
+            - generic [ref=f4e196]: 🤟 [1,1,0,0,1]
+            - generic [ref=f4e197]: Большой + указательный + мизинец
+        - generic [ref=f4e198]:
+          - generic [ref=f4e199]: "8"
+          - generic [ref=f4e200]:
+            - generic [ref=f4e201]: 🖐️ Без безымянного [1,1,1,0,1]
+            - generic [ref=f4e202]: Согните только безымянный
+        - generic [ref=f4e203]:
+          - generic [ref=f4e204]: "9"
+          - generic [ref=f4e205]:
+            - generic [ref=f4e206]: 👌 Кольцо ОК [0,0,1,1,1]
+            - generic [ref=f4e207]: Большой + указательный в кольцо, 3 вверх
+      - generic [ref=f4e208]: "🔤 Дактильные буквы (А–Я, включая кыргызские Ө, Ү, Ң):"
+      - generic [ref=f4e209]:
+        - generic [ref=f4e210]:
+          - generic [ref=f4e211]: А
+          - generic [ref=f4e212]:
+            - generic [ref=f4e213]: ✊ Кулак / 👍 Вверх
+            - generic [ref=f4e214]: Кулак (в режиме Буквы) или большой вверх
+        - generic [ref=f4e215]:
+          - generic [ref=f4e216]: Б
+          - generic [ref=f4e217]:
+            - generic [ref=f4e218]: 🖖 4 пальца [0,1,1,1,1]
+            - generic [ref=f4e219]: 4 пальца вверх, большой к ладони
+        - generic [ref=f4e220]:
+          - generic [ref=f4e221]: В
+          - generic [ref=f4e222]:
+            - generic [ref=f4e223]: ✌️ V-жест широко
+            - generic [ref=f4e224]: Указательный и средний разведены
+        - generic [ref=f4e225]:
+          - generic [ref=f4e226]: Г
+          - generic [ref=f4e227]:
+            - generic [ref=f4e228]: 👉 Кисть горизонтально
+            - generic [ref=f4e229]: Указательный + большой вбок
+        - generic [ref=f4e230]:
+          - generic [ref=f4e231]: И
+          - generic [ref=f4e232]:
+            - generic [ref=f4e233]: ☝️ Указательный [0,1,0,0,0]
+            - generic [ref=f4e234]: Указательный вверх (в режиме Буквы)
+        - generic [ref=f4e235]:
+          - generic [ref=f4e236]: К
+          - generic [ref=f4e237]:
+            - generic [ref=f4e238]: 🤟 Три пальца [1,1,1,0,0]
+            - generic [ref=f4e239]: Большой + указательный + средний
+        - generic [ref=f4e240]:
+          - generic [ref=f4e241]: Л
+          - generic [ref=f4e242]:
+            - generic [ref=f4e243]: 👆 L-жест [1,1,0,0,0]
+            - generic [ref=f4e244]: Большой + указательный углом
+        - generic [ref=f4e245]:
+          - generic [ref=f4e246]: М
+          - generic [ref=f4e247]:
+            - generic [ref=f4e248]: 👇 3 пальца вниз
+            - generic [ref=f4e249]: Опустите 3 пальца вниз
+        - generic [ref=f4e250]:
+          - generic [ref=f4e251]: Ң
+          - generic [ref=f4e252]:
+            - generic [ref=f4e253]: 🤙 Только мизинец [0,0,0,0,1]
+            - generic [ref=f4e254]: Мизинец вертикально вверх
+        - generic [ref=f4e255]:
+          - generic [ref=f4e256]: О
+          - generic [ref=f4e257]:
+            - generic [ref=f4e258]: 👌 Кольцо ОК
+            - generic [ref=f4e259]: Сомкните большой и указательный кольцом
+        - generic [ref=f4e260]:
+          - generic [ref=f4e261]: Ө
+          - generic [ref=f4e262]:
+            - generic [ref=f4e263]: 🤘 Рокер [0,1,0,0,1]
+            - generic [ref=f4e264]: Указательный + мизинец вверх
+        - generic [ref=f4e265]:
+          - generic [ref=f4e266]: П
+          - generic [ref=f4e267]:
+            - generic [ref=f4e268]: 🤞 2 пальца вместе
+            - generic [ref=f4e269]: Указательный и средний сомкнуты
+        - generic [ref=f4e270]:
+          - generic [ref=f4e271]: Р
+          - generic [ref=f4e272]:
+            - generic [ref=f4e273]: 👇 Пальцы вниз
+            - generic [ref=f4e274]: Указательный палец вниз
+        - generic [ref=f4e275]:
+          - generic [ref=f4e276]: Т
+          - generic [ref=f4e277]:
+            - generic [ref=f4e278]: 👍 Большой вбок [1,0,0,0,0]
+            - generic [ref=f4e279]: Только большой палец открыт
+        - generic [ref=f4e280]:
+          - generic [ref=f4e281]: Ү
+          - generic [ref=f4e282]:
+            - generic [ref=f4e283]: 🤟 [1,1,0,0,1]
+            - generic [ref=f4e284]: Большой + указательный + мизинец
+        - generic [ref=f4e285]:
+          - generic [ref=f4e286]: Ш
+          - generic [ref=f4e287]:
+            - generic [ref=f4e288]: 🖖 3 пальца вверх [0,1,1,1,0]
+            - generic [ref=f4e289]: Указательный + средний + безымянный
+        - generic [ref=f4e290]:
+          - generic [ref=f4e291]: Ы
+          - generic [ref=f4e292]:
+            - generic [ref=f4e293]: 🤙 Шака [1,0,0,0,1]
+            - generic [ref=f4e294]: Большой палец + мизинец

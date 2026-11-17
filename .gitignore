@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+backend/models/*.task
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build artifacts we regenerate (keep dist for serving? exclude to keep repo light)
+# frontend/dist/  -- kept for direct serving; comment out to include
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+tmp/
+Temp/

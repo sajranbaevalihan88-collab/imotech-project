@@ -1,0 +1,32 @@
+- generic [ref=f4e3]:
+  - banner [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - generic [ref=f4e6]: 🤟
+      - generic [ref=f4e7]:
+        - generic [ref=f4e8]:
+          - heading "ImoTech • ЫмТили" [level=1] [ref=f4e9]
+          - generic [ref=f4e10]: MediaPipe Hands 21-Point Live AI
+          - generic [ref=f4e12]: Буквы (А–Я, Ө, Ү, Ң) + Цифры (0–9)
+        - paragraph [ref=f4e13]: Живой нейросетевой сурдопереводчик жестов через веб-камеру в реальном времени, покадровый разбор видео (.MP4) и перевод из YouTube
+    - button "🎥 Включить веб-камеру (Живое распознавание руки)" [ref=f4e15] [cursor=pointer]
+  - navigation [ref=f4e16]:
+    - button "📷 Живая Веб-Камера ➔ Буквы (А–Я) и Цифры (0–9)" [ref=f4e17] [cursor=pointer]
+    - button "🎬 Обработка видеофайла (.MP4 / Кадры)" [ref=f4e18] [cursor=pointer]
+    - button "🖼️ Обработка фото (JPG / PNG)" [ref=f4e19] [cursor=pointer]
+    - button "▶️ Перевод из YouTube по ссылке" [ref=f4e20] [cursor=pointer]
+  - generic [ref=f4e295]:
+    - generic [ref=f4e296]:
+      - generic [ref=f4e297]:
+        - heading "🎬 Загрузка и покадровая обработка видеофайла" [level=2] [ref=f4e298]
+        - generic [ref=f4e299]: MediaPipe Video Scanner
+      - generic [ref=f4e300] [cursor=pointer]:
+        - generic [ref=f4e301]: 📂
+        - generic [ref=f4e302]: Нажмите, чтобы загрузить своё видео (.MP4, .WEBM, .MOV) с жестами руки
+        - generic [ref=f4e303]: "Активный файл: test_hand9.mp4 (0.06 МБ)"
+      - generic [ref=f4e315]: "▶️ Нажмите Play — нейросеть MediaPipe Hands в реальном времени отсканирует кадры вашего видео:"
+      - generic [ref=f4e305]:
+        - generic [ref=f4e306]: ⏳ Извлечение кадров и 21-точечного скелета...
+        - generic [ref=f4e307]: 4%
+    - generic [ref=f4e311]:
+      - heading "📋 Таймлайн распознанных букв, цифр и фраз" [level=2] [ref=f4e313]
+      - generic [ref=f4e314]: 📥 Таймлайн пуст — загрузите свой видеофайл слева. Сервер (OpenCV + MediaPipe Hands) отсканирует реальные кадры и покажет здесь только действительно распознанные жесты. Фейковые пресеты удалены.

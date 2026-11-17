@@ -1,0 +1,44 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 🤟
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - heading "ImoTech • ЫмТили" [level=1] [ref=e9]
+          - generic [ref=e10]: MediaPipe Hands 21-Point Live AI
+          - generic [ref=e12]: Буквы (А–Я, Ө, Ү, Ң) + Цифры (0–9)
+        - paragraph [ref=e13]: Живой нейросетевой сурдопереводчик жестов через веб-камеру в реальном времени, покадровый разбор видео (.MP4) и перевод из YouTube
+    - button "🎥 Включить веб-камеру (Живое распознавание руки)" [ref=e15] [cursor=pointer]
+  - navigation [ref=e16]:
+    - button "📷 Живая Веб-Камера ➔ Буквы (А–Я) и Цифры (0–9)" [ref=e17] [cursor=pointer]
+    - button "🎬 Обработка видеофайла (.MP4 / Кадры)" [ref=e18] [cursor=pointer]
+    - button "🖼️ Обработка фото (JPG / PNG)" [ref=e19] [cursor=pointer]
+    - button "▶️ Перевод из YouTube по ссылке" [ref=e20] [cursor=pointer]
+  - generic [ref=e380]:
+    - generic [ref=e381]:
+      - generic [ref=e382]:
+        - heading "🖼️ Обработка фото с жестом руки" [level=2] [ref=e383]
+        - generic [ref=e384]: MediaPipe Photo Scanner
+      - generic [ref=e385] [cursor=pointer]:
+        - generic [ref=e386]: 🖼️
+        - generic [ref=e387]: Перетащите фото сюда или нажмите, чтобы выбрать файл (JPG, PNG, WEBP)
+        - generic [ref=e388]: "Активный файл: gesture_photo.jpg (—)"
+        - generic [ref=e389]: 📂 Выбрать фото
+      - generic [ref=e391]:
+        - generic [ref=e392]:
+          - generic [ref=e393]: "Режим распознавания фото:"
+          - button "🤖 Авто (буквы+цифры)" [ref=e394] [cursor=pointer]
+          - button "🔢 Цифры (0–9)" [ref=e395] [cursor=pointer]
+          - button "🔤 Буквы (А–Я, Ө, Ү, Ң)" [ref=e396] [cursor=pointer]
+          - button "🗣️ Фразы (КЖЯ)" [ref=e397] [cursor=pointer]
+        - button "📸 Снять фото с веб-камеры и проанализировать" [ref=e398] [cursor=pointer]
+        - generic [ref=e399]: "Снимок делается с активной веб-камеры (вкладка «Живая Веб-Камера»). Режим — только для вкладки фото, не влияет на сканер: Авто."
+      - generic [ref=e402]: Загрузите фото с жестом руки (JPG / PNG / WEBP) — нейросеть MediaPipe Hands найдёт 21 ключевую точку кисти и переведёт жест в букву, цифру или слово
+    - generic [ref=e403]:
+      - heading "📋 Результат анализа фото" [level=2] [ref=e405]
+      - generic [ref=e406]:
+        - strong [ref=e407]: "🖼️ Как это работает:"
+        - generic [ref=e408]:
+          - text: 1. Загрузите фото с жестом руки или снимите кадр с веб-камеры.2. Нейросеть
+          - code [ref=e409]: MediaPipe Hands
+          - text: найдёт 21 ключевую точку кисти и определит изгиб каждого пальца.3. Геометрический классификатор переведёт жест в цифру (0–9), букву дактиля (А–Я, Ө, Ү, Ң) или слово КЖЯ.4. Готовый отчёт можно скачать кнопкой ниже.
