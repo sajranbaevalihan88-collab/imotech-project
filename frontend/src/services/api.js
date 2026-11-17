@@ -6,7 +6,11 @@ import {
   buildLandmarks21FromFingers
 } from "../data/mockData.js";
 
-const API_BASE = "http://localhost:8010/api";
+const API_BASE =
+  (typeof window !== "undefined" &&
+    (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"))
+    ? "http://localhost:8010/api"
+    : "https://imotech-backend.onrender.com/api";
 
 function localClassifyGesture({ mode = "auto", finger_states = [0, 1, 1, 0, 0], gesture_code = null, wrist_angle_deg = 0 }) {
   const f = (finger_states || [0, 1, 1, 0, 0]).map(v => (v >= 1 ? 1 : 0));
